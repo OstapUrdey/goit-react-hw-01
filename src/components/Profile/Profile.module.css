@@ -1,0 +1,72 @@
+.containerProfile {
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.containerProfile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.containerProfile p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.containerProfile p:nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.containerProfile p:nth-child(3) {
+    font-size: 18px;
+    color: #777;
+}
+
+.containerProfile p:nth-child(4) {
+    font-size: 16px;
+    color: #999;
+}
+
+.containerProfile ul {
+    display: flex;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.containerProfile ul li {
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+
+.containerProfile ul li:last-child {
+    border-right: none;
+}
+
+.containerProfile ul li span:first-child {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+.containerProfile ul li span:last-child {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
